@@ -88,7 +88,7 @@ void walkerAlgorithm::moveRobot() {
     // Set the ros loop rate
     ros::Rate loop_rate(5);
     // Run until ros runs
-    while(ros::ok()) {
+    while (ros::ok()) {
         // Check if the obstacle is detected or not
         if (checkObstacle()) {
             ROS_WARN_STREAM("Obstacle ahead within the range of 0.7");

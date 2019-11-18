@@ -30,8 +30,8 @@
  *@brief declare walkerAlgorithm class functions
  */
 
-#ifndef INCLUDE_TURTLEBOT_WALKER_WALKERALGORITHM_H_
-#define INCLUDE_TURTLEBOT_WALKER_WALKERALGORITHM_H_
+#ifndef INCLUDE_TURTLEBOT_WALKER_WALKERALGORITHM_HPP_
+#define INCLUDE_TURTLEBOT_WALKER_WALKERALGORITHM_HPP_
 
 #include "ros/ros.h"
 #include "sensor_msgs/LaserScan.h"
@@ -86,4 +86,4 @@ class walkerAlgorithm {
   void moveRobot();
 };
 
-#endif
+#endif  // INCLUDE_TURTLEBOT_WALKER_WALKERALGORITHM_HPP_
