@@ -44,11 +44,11 @@ class walkerAlgorithm {
  private:
   // Variable for velocities
   geometry_msgs::Twist msg;
-  // node handler
+  // node handler object
   ros::NodeHandle nh;
-  // publish velocities
+  // Publisher object to publish velocities
   ros::Publisher publishVelocity;
-  // subscribe laserscan topic
+  // Subscriber object to subscribe laserscan topic
   ros::Subscriber subscribeVelocity;
   // variable for default linear speed
   float linearVelocity;
